@@ -44,7 +44,7 @@ export default async function Layout(props: {
               >
                 {t('counter_link')}
               </Link>
-            </li>
+            </li>*/}
             <li>
               <Link
                 href="/portfolio/"
@@ -52,7 +52,7 @@ export default async function Layout(props: {
               >
                 {t('portfolio_link')}
               </Link>
-            </li> */}
+            </li> 
             <li>
               <a
                 className="border-none text-gray-700 hover:text-gray-900"
