@@ -2,6 +2,7 @@ import { hasLocale ,NextIntlClientProvider } from "next-intl";
 import { routing } from "../../libs/I18nRouting";
 import { notFound } from "next/navigation";
 import { getMessages, setRequestLocale } from "next-intl/server";
+import '../../style/global.css';
 
 export default async function RootLayout(
     props: { children: React.ReactNode, params: Promise<{ locale: string }> }
